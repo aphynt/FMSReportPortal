@@ -113,6 +113,17 @@ return [
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
+        'focus_reporting' => [
+            'driver'   => 'sqlsrv',
+            'host'     => '10.10.3.73',
+            'port'     => '1433',
+            'database' => 'FOCUS_REPORTING',
+            'username' => 'FOCUS',
+            'password' => 'sim5_db@1234',
+            'charset'  => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'   => '',
+        ],
 
     ],
 
