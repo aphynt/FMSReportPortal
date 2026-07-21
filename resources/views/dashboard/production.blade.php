@@ -6,9 +6,9 @@
 
     <div class="post d-flex flex-column-fluid" id="kt_post">
 
-        <div id="kt_content_container" class="container-fluid">
+        <div id="kt_content_container" class="container-fluid h-100">
 
-            <div class="card shadow-sm border-0">
+            <div class="card shadow-sm border-0 h-100">
 
                 <div class="card-header">
                     <h3 class="card-title">
@@ -19,12 +19,11 @@
                 <div class="card-body p-0">
 
                     <iframe
-                        src="http://10.10.2.6:82/ReportServer?/Portal/Dashboard%20Production&rs:Command=Render&rs:Embed=true"
+                        src="{{ config('ssrs.url') . '/ReportServer?/Portal/Dashboard%20Production&rs:Command=Render&rs:Embed=true' }}"
                         width="100%"
                         height="900"
                         frameborder="0"
-                        style="border:0; overflow:hidden;"
-                    >
+                        style="border:none;">
                     </iframe>
 
                 </div>
