@@ -22,11 +22,15 @@
         overflow: hidden;
     }
 
-    .ssrs-frame {
-        width: 100%;
-        height: 100%;
-        border: none;
-        display: block;
+    .ssrs-frame{
+        width:125%;
+        height:125%;
+
+        transform:scale(0.8);
+
+        transform-origin:0 0;
+
+        border:none;
     }
 </style>
 
