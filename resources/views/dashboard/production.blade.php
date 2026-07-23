@@ -4,7 +4,7 @@
 
 <style>
     #kt_content {
-        padding: 0 !important;
+        padding: 5px !important;
     }
 
     #kt_post {
@@ -13,8 +13,13 @@
 
     #kt_content_container {
         padding: 0 !important;
-        margin: 0 !important;
-        height: calc(100vh - 70px);
+        max-width: 100%;
+    }
+
+    .ssrs-card {
+        height: 850px;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .ssrs-frame {
@@ -29,10 +34,14 @@
     <div class="post d-flex flex-column-fluid" id="kt_post">
         <div id="kt_content_container" class="container-fluid">
 
-           <iframe
-                class="ssrs-frame"
-                src="/ReportServer?/Portal/Dashboard%20Production&rs:Command=Render&rs:Embed=true">
-            </iframe>
+            <div class="card shadow-sm ssrs-card">
+
+                <iframe
+                    class="ssrs-frame"
+                    src="/ReportServer?/Portal/Dashboard%20Production&rs:Command=Render&rs:Embed=true">
+                </iframe>
+
+            </div>
 
         </div>
     </div>
