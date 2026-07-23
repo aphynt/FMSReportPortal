@@ -60039,7 +60039,7 @@ body {
 
     .wrapper {
         transition: padding-left .3s ease;
-        padding-top: 74px;
+        padding-top: 50px;
         padding-left: 265px
     }
 
@@ -60079,7 +60079,7 @@ body {
         display: flex;
         align-items: center;
         position: fixed;
-        height: 74px;
+        height: 50px;
         transition: left .3s ease;
         z-index: 100;
         box-shadow: var(--bs-header-box-shadow);
@@ -60091,7 +60091,7 @@ body {
     }
 
     .header .header-brand {
-        height: 74px;
+        height: 50px;
         padding: 0 25px;
         width: 265px;
         border-right: var(--bs-aside-border);
@@ -60258,7 +60258,7 @@ body {
 @media (min-width:992px) {
     .aside {
         position: fixed;
-        top: 74px;
+        top: 50px;
         left: 0;
         bottom: 0;
         z-index: 101;

@@ -29,9 +29,9 @@
     <div class="post d-flex flex-column-fluid" id="kt_post">
         <div id="kt_content_container" class="container-fluid">
 
-            <iframe
+           <iframe
                 class="ssrs-frame"
-                src="{{ config('ssrs.url') }}/ReportServer?/Portal/Dashboard%20Production&rs:Command=Render&rs:Embed=true">
+                src="/ReportServer?/Portal/Dashboard%20Production&rs:Command=Render&rs:Embed=true">
             </iframe>
 
         </div>
