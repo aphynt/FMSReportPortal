@@ -24,7 +24,7 @@
 
     .ssrs-frame{
         width:125%;
-        height:125%;
+        height:155%;
 
         transform:scale(0.8);
 
