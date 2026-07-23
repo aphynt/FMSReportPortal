@@ -17,14 +17,14 @@
     }
 
     .ssrs-card {
-        height: 850px;
+        height: 1200px;
         border-radius: 10px;
         overflow: hidden;
     }
 
     .ssrs-frame{
         width:125%;
-        height:155%;
+        height:125%;
 
         transform:scale(0.8);
 
